@@ -79,15 +79,29 @@
 <p data-i18n="contactLead">A brand.<br>A person.<br>A market.<br>An idea.<br>A possibility.</p>
 <div class="contact-actions">
 <p><span data-i18n="contactText">If there is something worth connecting,<br>we should talk.</span></p>
-<a class="primary-cta" href="https://direct.salondenet.jp/XWcj2QTPq8YwXeoL8" target="_blank" rel="noopener"><span data-i18n="bookButton">BOOK AN APPOINTMENT ↗</span></a>
+<a class="primary-cta" href="https://direct.salondenet.jp/XWcj2QTPq8YwXeoL8" target="_blank" rel="noopener" data-track="booking_click"><span data-i18n="bookButton">BOOK AN APPOINTMENT ↗</span></a>
 <div class="contact-links">
-<a href="https://www.instagram.com/jfirstsaigon/" target="_blank" rel="noopener">INSTAGRAM ↗</a>
-<a href="https://www.facebook.com/jfirstsaigon" target="_blank" rel="noopener">FACEBOOK ↗</a>
-<a href="https://m.me/jfirstsaigon" target="_blank" rel="noopener">MESSENGER ↗</a>
-<a href="https://zalo.me/0338465771" target="_blank" rel="noopener">ZALO ↗</a>
-<a href="tel:+84338465771">TEL +84 33 846 5771</a>
+<a href="https://www.instagram.com/jfirstsaigon/" target="_blank" rel="noopener" data-track="instagram_click">INSTAGRAM ↗</a>
+<a href="https://www.facebook.com/jfirstsaigon" target="_blank" rel="noopener" data-track="facebook_click">FACEBOOK ↗</a>
+<a href="https://m.me/jfirstsaigon" target="_blank" rel="noopener" data-track="messenger_click">MESSENGER ↗</a>
+<a href="https://zalo.me/0338465771" target="_blank" rel="noopener" data-track="zalo_click">ZALO ↗</a>
+<a href="tel:+84338465771" data-track="phone_click">TEL +84 33 846 5771</a>
 </div>
 <address>J-first Saigon<br>11/3B Nguyễn Ư Dĩ, Phường An Khánh,<br>TP. Hồ Chí Minh, Vietnam</address>
 </div></div>
-<footer><span>LIMINAL CONNECTIVE</span><span>Behind the Scenes.</span><span>HO CHI MINH CITY / VIETNAM / JAPAN</span><span><a href="https://www.instagram.com/jfirstsaigon/" target="_blank" rel="noopener">IG</a> / <a href="https://www.facebook.com/jfirstsaigon" target="_blank" rel="noopener">FB</a> / <a href="https://direct.salondenet.jp/XWcj2QTPq8YwXeoL8" target="_blank" rel="noopener">BOOK</a></span></footer></section>
-</main><script src="script.js"></script></body></html>
+<footer><span>LIMINAL CONNECTIVE</span><span>Behind the Scenes.</span><span>HO CHI MINH CITY / VIETNAM / JAPAN</span><span><a href="https://www.instagram.com/jfirstsaigon/" target="_blank" rel="noopener" data-track="instagram_click">IG</a> / <a href="https://www.facebook.com/jfirstsaigon" target="_blank" rel="noopener" data-track="facebook_click">FB</a> / <a href="https://direct.salondenet.jp/XWcj2QTPq8YwXeoL8" target="_blank" rel="noopener" data-track="booking_click">BOOK</a></span></footer></section>
+</main><script src="script.js"></script>
+<script>
+document.addEventListener('click', function (event) {
+  const link = event.target.closest('[data-track]');
+  if (!link || typeof gtag !== 'function') return;
+  gtag('event', link.dataset.track, {
+    link_url: link.href,
+    link_text: (link.innerText || link.textContent || '').trim(),
+    page_location: window.location.href,
+    language_selected: document.documentElement.lang || 'en'
+  });
+});
+</script>
+
+</body></html>
