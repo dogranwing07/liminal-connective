@@ -1,0 +1,1 @@
+const art=document.querySelector(".art");window.addEventListener("scroll",()=>{if(!art)return;const y=Math.min(scrollY,innerHeight);art.style.transform=`translateY(${y*.035}px)`},{passive:true});

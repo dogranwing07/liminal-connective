@@ -1,0 +1,1 @@
+Open index.html in Chrome or Safari. Replace hello@example.com before launch.
