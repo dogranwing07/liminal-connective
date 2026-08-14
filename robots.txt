@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dogranwing07.github.io/liminal-connective/sitemap.xml
