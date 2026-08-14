@@ -72,6 +72,41 @@ html,body{background:#000!important;color:#fff!important}
  .brand-definition .bd-mantra{font-size:13vw}
  .brand-definition .bd-close{grid-template-columns:1fr;gap:24px}
 }
+
+/* v17 — MERGED CONNECTIVE ECOSYSTEM */
+html,body,main,section,footer{background:#000!important}
+a,a:link,a:visited,a:hover,a:active{color:inherit}
+.connective-system{background:#000;color:#fff;padding:14vh 6vw;border-top:1px solid #181818}
+.cs-label{font:300 8px/1 Inter,sans-serif;letter-spacing:.22em;opacity:.45}
+.cs-head{font-family:"Playfair Display",serif;font-size:9vw;line-height:.82;letter-spacing:-.055em;margin:8vh 0 10vh}
+.cs-card{position:relative;display:grid;grid-template-columns:80px 1fr 1.2fr auto;gap:3vw;align-items:center;min-height:180px;padding:34px 0;border-top:1px solid #252525;color:#fff;text-decoration:none;transition:background .3s,padding .3s}
+.cs-card:last-of-type{border-bottom:1px solid #252525}
+.cs-card:hover{background:#101010;padding-left:22px;padding-right:22px}
+.cs-card .num{font:300 9px/1 Inter,sans-serif;letter-spacing:.16em;opacity:.5}
+.cs-card .pair{font-family:"Playfair Display",serif;font-size:3.4vw;line-height:.95}
+.cs-card .cap small{display:block;font:300 7px/1 Inter,sans-serif;letter-spacing:.18em;opacity:.48;margin-bottom:14px}
+.cs-card .cap strong{display:block;font:400 18px/1.2 Inter,sans-serif;letter-spacing:.04em;margin-bottom:10px}
+.cs-card .cap p{font:300 10px/1.7 Inter,sans-serif;opacity:.55;margin:0;max-width:540px}
+.cs-card .view{font:400 8px/1 Inter,sans-serif;letter-spacing:.18em;white-space:nowrap;opacity:1}
+.cs-eco{padding-top:14vh}
+.cs-eco-title{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid #222;padding-bottom:18px}
+.cs-eco-title h3{font-family:"Playfair Display",serif;font-size:5vw;font-weight:400;margin:0}
+.cs-eco-title span{font:300 8px/1 Inter,sans-serif;letter-spacing:.18em;opacity:.45}
+.cs-copy{font-family:"Playfair Display",serif;font-size:4vw;line-height:1;margin-top:8vh}
+.cs-copy em{font-weight:400}
+.editorial-links a{min-height:105px!important;padding:28px 20px!important;background:#050505!important;color:#fff!important;opacity:1!important}
+.editorial-links a:hover{background:#101010!important}
+.editorial-links strong{color:#fff!important;opacity:1!important}
+.editorial-links em{color:#fff!important;opacity:.85!important}
+@media(max-width:800px){
+ .connective-system{padding:11vh 18px}
+ .cs-head{font-size:18vw}
+ .cs-card{grid-template-columns:35px 1fr;gap:16px;min-height:0;padding:30px 0}
+ .cs-card:hover{padding-left:0;padding-right:0}
+ .cs-card .pair{font-size:9vw}.cs-card .cap{grid-column:2}.cs-card .view{grid-column:2;margin-top:10px}
+ .cs-eco-title{display:block}.cs-eco-title h3{font-size:12vw}.cs-eco-title span{display:block;margin-top:12px}
+ .cs-copy{font-size:10vw}
+}
 </style></head>
 <body>
 <div class="noise"></div><div class="progress"><span></span></div>
@@ -121,32 +156,27 @@ html,body{background:#000!important;color:#fff!important}
 </section>
 <section id="philosophy" class="reveal"><small>01 / PHILOSOPHY</small><div class="grid"><h2>Behind<br>the Scenes.</h2><div class="copy"><p><span data-i18n="p1">We are not here to be the main act.</span></p><p><span data-i18n="p2">We connect people,<br>cross boundaries,<br>and unframe what already exists.</span></p><p><span data-i18n="p3">We break things apart, reconnect them,<br>and create what has yet to exist.</span></p><p><span data-i18n="p4">Beyond what is seen,<br>we create what will remain.</span></p><p><span data-i18n="p5">Rather than becoming the main act,<br>we create the stage for others to rise.</span></p><p><span data-i18n="p6">Rather than standing in the light,<br>we create the light.</span></p><h3><span data-i18n="p7">We are the unseen.<br>We are the shadow.</span></h3><p><span data-i18n="p8">From behind the scenes,<br>we connect people with possibility<br>and build the stage for what comes next.</span></p></div></div></section>
 <section class="visual reveal"><div class="frame"><span>BEHIND / 001</span><div class="shadow"></div><p>Something is always happening<br>before it becomes visible.</p></div></section>
-<section id="connect" class="reveal"><small>02 / WHAT WE CONNECT</small><div class="sectionhead"><h4 data-i18n="weConnect">WE CONNECT</h4><p><span data-i18n="different">Different worlds.<br>One connection.</span></p></div><div class="pairs connection-links">
-<a class="connection-entry" href="connections.html#japan-vietnam" data-track="japan_vietnam_click"><span>JAPAN</span><i></i><b>×</b><i></i><span>VIETNAM</span><em>EXPLORE CONNECTION →</em></a>
-<a class="connection-entry" href="jfirst.html" data-track="beauty_business_click"><span>BEAUTY</span><i></i><b>×</b><i></i><span>BUSINESS</span><em>EXPLORE CONNECTION →</em></a>
-<a class="connection-entry" href="connections.html#people-opportunity" data-track="people_opportunity_click"><span>PEOPLE</span><i></i><b>×</b><i></i><span>OPPORTUNITY</span><em>EXPLORE CONNECTION →</em></a>
-<a class="connection-entry" href="connections.html#brand-market" data-track="brand_market_click"><span>BRAND</span><i></i><b>×</b><i></i><span>MARKET</span><em>EXPLORE CONNECTION →</em></a>
-<a class="connection-entry" href="connections.html#education-industry" data-track="education_industry_click"><span>EDUCATION</span><i></i><b>×</b><i></i><span>INDUSTRY</span><em>EXPLORE CONNECTION →</em></a>
-</div></section>
+
 <section class="reveal"><small>03 / POSITIONING</small><div class="grid"><div><h2 data-i18n="between">BETWEEN<br>WORLDS.</h2><p class="micro" data-i18n="betweenMicro">Industries. Cultures. Markets. People.</p></div><div class="position"><div class="line"></div><p data-i18n="position1">LIMINAL CONNECTIVE operates between industries, cultures, markets and people.</p><p data-i18n="position2">We identify possibilities that already exist, connect what has not yet been connected, and build the structure required to move them forward.</p><strong data-i18n="position3">WE DO NOT SIMPLY INTRODUCE.</strong><h3 data-i18n="position4">We design<br>the connection.</h3></div></div></section>
-<section id="business" class="reveal"><small>04 / BUSINESS</small><div class="sectionhead"><h4 data-i18n="businessTitle">BUSINESS</h4><p><span data-i18n="capabilities">Not isolated services.<br>Connected capabilities.</span></p></div><div class="business">
-<article><span>01</span><div><small>BEAUTY</small><h3>BEAUTY × CULTURE</h3></div><p data-i18n="biz1">Salon Management / Hair Design / Beauty Education / Creative Direction / Professional Development</p></article>
-<article><span>02</span><div><small>MARKET ENTRY</small><h3>JAPAN × VIETNAM</h3></div><p data-i18n="biz2">Market Research / Business Development / Local Partnership / Localization / Go-to-Market Strategy</p></article>
-<article><span>03</span><div><small>DISTRIBUTION</small><h3>PRODUCT × MARKET</h3></div><p data-i18n="biz3">Beauty Products / Professional Products / Distribution / Logistics / Sales Development</p></article>
-<article><span>04</span><div><small>EDUCATION</small><h3>KNOWLEDGE × PEOPLE</h3></div><p data-i18n="biz4">Professional Training / Technical Education / Salon Education / Japan Training Programs / Human Development</p></article>
-<article><span>05</span><div><small>CONNECTIVE</small><h3>PEOPLE × POSSIBILITY</h3></div><p data-i18n="biz5">Business Matching / Strategic Partnership / Creators / Models / KOL / Professionals / Companies</p></article>
-</div></section>
+
+
+<section id="connect" class="connective-system">
+<div class="cs-label">02 / CONNECTIVE ECOSYSTEM — WHAT WE DO</div>
+<h2 class="cs-head">WE<br><em>CONNECT.</em></h2>
+<div class="cs-cards"><a class="cs-card" href="jfirst.html"><span class="num">01</span><span class="pair">BEAUTY × BUSINESS</span><span class="cap"><small>BUSINESS CAPABILITY</small><strong>BEAUTY × CULTURE</strong><p>Salon Management / Hair Design / Beauty Education / Creative Direction / Professional Development</p></span><span class="view">VIEW CONNECTION ↗</span></a><a class="cs-card" href="connections.html#japan-vietnam"><span class="num">02</span><span class="pair">JAPAN × VIETNAM</span><span class="cap"><small>BUSINESS CAPABILITY</small><strong>MARKET ENTRY</strong><p>Market Research / Business Development / Local Partnership / Localization / Go-to-Market Strategy</p></span><span class="view">VIEW CONNECTION ↗</span></a><a class="cs-card" href="connections.html#brand-market"><span class="num">03</span><span class="pair">BRAND × MARKET</span><span class="cap"><small>BUSINESS CAPABILITY</small><strong>PRODUCT × MARKET</strong><p>Beauty Products / Professional Products / Distribution / Logistics / Sales Development</p></span><span class="view">VIEW CONNECTION ↗</span></a><a class="cs-card" href="connections.html#education-industry"><span class="num">04</span><span class="pair">EDUCATION × INDUSTRY</span><span class="cap"><small>BUSINESS CAPABILITY</small><strong>KNOWLEDGE × PEOPLE</strong><p>Professional Training / Technical Education / Salon Education / Japan Training Programs / Human Development</p></span><span class="view">VIEW CONNECTION ↗</span></a><a class="cs-card" href="connections.html#people-opportunity"><span class="num">05</span><span class="pair">PEOPLE × OPPORTUNITY</span><span class="cap"><small>BUSINESS CAPABILITY</small><strong>PEOPLE × POSSIBILITY</strong><p>Business Matching / Strategic Partnership / Creators / Models / KOL / Professionals / Companies</p></span><span class="view">VIEW CONNECTION ↗</span></a></div>
+<div class="cs-eco"><div class="cs-eco-title"><h3>ECOSYSTEM</h3><span>DIFFERENT WORLDS / ONE CONNECTION</span></div>
 <section class="ecosystem reveal"><small>05 / ECOSYSTEM</small><div class="eco"><div class="hub">LIMINAL<br>CONNECTIVE</div><span class="n n1">J-FIRST SAIGON</span><span class="n n2">HEADS FACTORY</span><span class="n n3">JBA</span><span class="n n4">andUS</span><span class="n n5">VIETNAM MARKET</span><span class="n n6">JAPANESE COMPANIES</span><span class="n n7">CREATORS / KOL</span><span class="n n8">EDUCATION / PEOPLE</span><span class="n n9">BRANDS / PRODUCTS</span></div><div class="ecocopy"><p><span data-i18n="eco1">We do not build isolated businesses.</span></p><h3><span data-i18n="eco2">We build ecosystems.</span></h3></div></section>
-<section id="connections" class="reveal"><small>06 / CONNECTIONS</small><div class="sectionhead"><h4 data-i18n="connectionsTitle">CONNECTIONS</h4><p><span data-i18n="projectsIntro">What matters is not the project.<br>It is what became connected.</span></p></div><div class="projects">
+<div class="cs-copy">We do not build isolated businesses.<br><em>We build ecosystems.</em></div></div>
+</section><section id="connections" class="reveal"><small>04 / CONNECTIONS</small><div class="sectionhead"><h4 data-i18n="connectionsTitle">CONNECTIONS</h4><p><span data-i18n="projectsIntro">What matters is not the project.<br>It is what became connected.</span></p></div><div class="projects">
 <article><span>01</span><small>BEAUTY × VIETNAM</small><h3>J-first Saigon</h3><p data-i18n="proj1">Japanese hair design and education, localized for the Vietnamese market in Ho Chi Minh City.</p></article>
 <article><span>02</span><small>EDUCATION × PROFESSIONALS</small><h3>1,000+ Beauty Professionals</h3><p data-i18n="proj2">Technical education and professional training developed across Vietnam.</p></article>
 <article><span>03</span><small>JAPAN × VIETNAM</small><h3>Market Development</h3><p data-i18n="proj3">Connecting Japanese beauty brands with Vietnamese salons, education and distribution.</p></article>
 <article><span>04</span><small>PEOPLE × JAPAN</small><h3>Professional Opportunity</h3><p data-i18n="proj4">Connecting Vietnamese beauty professionals with Japanese education and cross-border careers.</p></article>
 </div></section>
 
-<section class="founder reveal"><small>07 / HUMAN</small><div class="foundergrid"><div class="portrait"><div></div><span data-i18n="humanLabel">THE PERSON BEHIND THE CONNECTIONS</span></div><div><p class="kicker" data-i18n="founderRole">FOUNDER / CREATIVE CONNECTOR</p><h2>BASHI</h2><p class="founder-route">Japan → Vietnam<br><span data-i18n="founderSince">Since 2018</span></p><p data-i18n="founderFields">Beauty. Business. Education. Market. People.</p><div class="founder-story"><p data-i18n="founderCopy">Based in Ho Chi Minh City, working across the boundaries between Japan and Vietnam.</p><p data-i18n="founderCopy2">From salon management and hair design to professional education, market development and cross-border business.</p><p data-i18n="founderCopy3">More than 1,000 beauty professionals have participated in his education and training activities in Vietnam.</p><p data-i18n="founderCopy4">LIMINAL CONNECTIVE is not a new beginning. It is the structure created from years of connecting people, industries, cultures and possibilities.</p><strong data-i18n="founderClosing">Not the person in the spotlight.<br>The person behind the connection.</strong></div></div></div></section>
+<section class="founder reveal"><small>05 / HUMAN</small><div class="foundergrid"><div class="portrait"><div></div><span data-i18n="humanLabel">THE PERSON BEHIND THE CONNECTIONS</span></div><div><p class="kicker" data-i18n="founderRole">FOUNDER / CREATIVE CONNECTOR</p><h2>BASHI</h2><p class="founder-route">Japan → Vietnam<br><span data-i18n="founderSince">Since 2018</span></p><p data-i18n="founderFields">Beauty. Business. Education. Market. People.</p><div class="founder-story"><p data-i18n="founderCopy">Based in Ho Chi Minh City, working across the boundaries between Japan and Vietnam.</p><p data-i18n="founderCopy2">From salon management and hair design to professional education, market development and cross-border business.</p><p data-i18n="founderCopy3">More than 1,000 beauty professionals have participated in his education and training activities in Vietnam.</p><p data-i18n="founderCopy4">LIMINAL CONNECTIVE is not a new beginning. It is the structure created from years of connecting people, industries, cultures and possibilities.</p><strong data-i18n="founderClosing">Not the person in the spotlight.<br>The person behind the connection.</strong></div></div></div></section>
 <section class="manifesto"><p class="reveal" data-i18n="m1">WE ARE NOT<br><em>THE MAIN ACT.</em></p><p class="reveal" data-i18n="m2">WE BUILD<br><em>THE STAGE.</em></p><p class="reveal" data-i18n="m3">WE DO NOT<br><em>CHASE THE LIGHT.</em></p><p class="reveal" data-i18n="m4">WE CREATE IT.</p></section>
-<section id="contact" class="contact reveal"><small>08 / CONTACT</small><h2 data-i18n="contactTitle">LET'S<br>CONNECT.</h2>
+<section id="contact" class="contact reveal"><small>06 / CONTACT</small><h2 data-i18n="contactTitle">LET'S<br>CONNECT.</h2>
 <div class="contactgrid">
 <p data-i18n="contactLead">A brand.<br>A person.<br>A market.<br>An idea.<br>A possibility.</p>
 <div class="contact-actions">
