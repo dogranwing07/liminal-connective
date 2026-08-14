@@ -25,7 +25,7 @@ proj2:"ベトナム各地で展開してきた技術教育とプロフェッシ�
 proj3:"日本の美容ブランドを、ベトナムのサロン・教育・流通へ接続する市場開発。",
 proj4:"ベトナムの美容プロフェッショナルを、日本の教育と国境を越えたキャリアへ接続する。",
 numVietnam:"VIETNAM",numClients:"ベトナム人顧客",numPros:"美容プロフェッショナル",numCountries:"2か国 / 1つのネットワーク",
-humanLabel:"接続の裏側にいる人",founderRole:"FOUNDER / CREATIVE CONNECTOR",founderFields:"美容。ビジネス。教育。市場。人。",founderCopy:"境界を越えながら、本来なら離れたままの点と点を接続していく。",
+humanLabel:"接続の裏側にいる人",founderRole:"FOUNDER / CREATIVE CONNECTOR",founderSince:"2018 —",founderFields:"美容。ビジネス。教育。市場。人。",founderCopy:"2018年よりホーチミンを拠点に、日本とベトナムの境界を横断して活動。",founderCopy2:"サロン経営・ヘアデザインという現場から、美容教育、市場開拓、日越をつなぐビジネスへ。",founderCopy3:"ベトナムでの教育・講習活動では、これまで1,000名を超える美容従事者と接点を築いてきた。",founderCopy4:"LIMINAL CONNECTIVEは、新しく始めた何かではない。これまで人、業界、文化、可能性をつないできた活動を、一つの思想として構造化したもの。",founderClosing:"光の中に立つ人ではなく、<br>その接続をつくる人。",
 m1:"WE ARE NOT<br><em>THE MAIN ACT.</em>",m2:"WE BUILD<br><em>THE STAGE.</em>",m3:"WE DO NOT<br><em>CHASE THE LIGHT.</em>",m4:"WE CREATE IT.",
 contactTitle:"LET'S<br>CONNECT.",contactLead:"ブランド。<br>人。<br>市場。<br>アイデア。<br>可能性。",contactText:"つなぐ価値のあるものがあるなら、<br>話をしよう。",contactButton:"START A CONNECTION ↗",bookButton:"予約する ↗"
 },
@@ -52,7 +52,7 @@ proj2:"Đào tạo kỹ thuật và phát triển chuyên môn được triển 
 proj3:"Kết nối các thương hiệu làm đẹp Nhật Bản với salon, giáo dục và hệ thống phân phối tại Việt Nam.",
 proj4:"Kết nối các chuyên gia làm đẹp Việt Nam với giáo dục Nhật Bản và cơ hội nghề nghiệp xuyên biên giới.",
 numVietnam:"VIETNAM",numClients:"KHÁCH HÀNG VIỆT NAM",numPros:"CHUYÊN GIA NGÀNH LÀM ĐẸP",numCountries:"2 QUỐC GIA / MỘT MẠNG LƯỚI",
-humanLabel:"NGƯỜI ĐỨNG SAU NHỮNG KẾT NỐI",founderRole:"FOUNDER / CREATIVE CONNECTOR",founderFields:"Beauty. Business. Education. Market. People.",founderCopy:"Hoạt động tại những ranh giới, kết nối những điểm vốn sẽ tồn tại tách biệt.",
+humanLabel:"NGƯỜI ĐỨNG SAU NHỮNG KẾT NỐI",founderRole:"FOUNDER / CREATIVE CONNECTOR",founderSince:"Từ năm 2018",founderFields:"Beauty. Business. Education. Market. People.",founderCopy:"Hoạt động tại TP.HCM từ năm 2018, kết nối những ranh giới giữa Nhật Bản và Việt Nam.",founderCopy2:"Từ vận hành salon và thiết kế tóc đến đào tạo chuyên môn, phát triển thị trường và kinh doanh xuyên biên giới.",founderCopy3:"Hơn 1.000 chuyên gia trong ngành tóc và làm đẹp tại Việt Nam đã tham gia các hoạt động đào tạo và phát triển chuyên môn.",founderCopy4:"LIMINAL CONNECTIVE không phải là một khởi đầu mới. Đó là cấu trúc được hình thành từ nhiều năm kết nối con người, ngành nghề, văn hóa và những khả năng mới.",founderClosing:"Không phải người đứng dưới ánh đèn.<br>Mà là người tạo nên những kết nối phía sau.",
 m1:"WE ARE NOT<br><em>THE MAIN ACT.</em>",m2:"WE BUILD<br><em>THE STAGE.</em>",m3:"WE DO NOT<br><em>CHASE THE LIGHT.</em>",m4:"WE CREATE IT.",
 contactTitle:"LET'S<br>CONNECT.",contactLead:"Một thương hiệu.<br>Một con người.<br>Một thị trường.<br>Một ý tưởng.<br>Một khả năng.",contactText:"Nếu có điều gì đó đáng để kết nối,<br>chúng ta nên trò chuyện.",contactButton:"START A CONNECTION ↗",bookButton:"ĐẶT LỊCH ↗"
 }}
