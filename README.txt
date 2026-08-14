@@ -1,2 +1,1 @@
-LIMINAL CONNECTIVE v6 — production contact, social links, phone, address and web reservation CTA.
-Upload index.html, styles.css and script.js to the existing GitHub Pages repository.
+v15: raw external links removed from WHAT WE CONNECT; editorial Connections detail page added; footer expanded into Navigation / Connected Network / Social & Action. Upload index.html and connections.html. jfirst.html remains from v14.
