@@ -27,7 +27,7 @@ proj4:"ベトナムの美容プロフェッショナルを、日本の教育と�
 numVietnam:"VIETNAM",numClients:"ベトナム人顧客",numPros:"美容プロフェッショナル",numCountries:"2か国 / 1つのネットワーク",
 humanLabel:"接続の裏側にいる人",founderRole:"FOUNDER / CREATIVE CONNECTOR",founderFields:"美容。ビジネス。教育。市場。人。",founderCopy:"境界を越えながら、本来なら離れたままの点と点を接続していく。",
 m1:"WE ARE NOT<br><em>THE MAIN ACT.</em>",m2:"WE BUILD<br><em>THE STAGE.</em>",m3:"WE DO NOT<br><em>CHASE THE LIGHT.</em>",m4:"WE CREATE IT.",
-contactTitle:"LET'S<br>CONNECT.",contactLead:"ブランド。<br>人。<br>市場。<br>アイデア。<br>可能性。",contactText:"つなぐ価値のあるものがあるなら、<br>話をしよう。",contactButton:"START A CONNECTION ↗"
+contactTitle:"LET'S<br>CONNECT.",contactLead:"ブランド。<br>人。<br>市場。<br>アイデア。<br>可能性。",contactText:"つなぐ価値のあるものがあるなら、<br>話をしよう。",contactButton:"START A CONNECTION ↗",bookButton:"予約する ↗"
 },
 vi:{
 navAbout:"ABOUT",navConnect:"CONNECT",navBusiness:"BUSINESS",navProjects:"PROJECTS",navContact:"CONTACT",
@@ -54,7 +54,7 @@ proj4:"Kết nối các chuyên gia làm đẹp Việt Nam với giáo dục Nh�
 numVietnam:"VIETNAM",numClients:"KHÁCH HÀNG VIỆT NAM",numPros:"CHUYÊN GIA NGÀNH LÀM ĐẸP",numCountries:"2 QUỐC GIA / MỘT MẠNG LƯỚI",
 humanLabel:"NGƯỜI ĐỨNG SAU NHỮNG KẾT NỐI",founderRole:"FOUNDER / CREATIVE CONNECTOR",founderFields:"Beauty. Business. Education. Market. People.",founderCopy:"Hoạt động tại những ranh giới, kết nối những điểm vốn sẽ tồn tại tách biệt.",
 m1:"WE ARE NOT<br><em>THE MAIN ACT.</em>",m2:"WE BUILD<br><em>THE STAGE.</em>",m3:"WE DO NOT<br><em>CHASE THE LIGHT.</em>",m4:"WE CREATE IT.",
-contactTitle:"LET'S<br>CONNECT.",contactLead:"Một thương hiệu.<br>Một con người.<br>Một thị trường.<br>Một ý tưởng.<br>Một khả năng.",contactText:"Nếu có điều gì đó đáng để kết nối,<br>chúng ta nên trò chuyện.",contactButton:"START A CONNECTION ↗"
+contactTitle:"LET'S<br>CONNECT.",contactLead:"Một thương hiệu.<br>Một con người.<br>Một thị trường.<br>Một ý tưởng.<br>Một khả năng.",contactText:"Nếu có điều gì đó đáng để kết nối,<br>chúng ta nên trò chuyện.",contactButton:"START A CONNECTION ↗",bookButton:"ĐẶT LỊCH ↗"
 }}
 const english={};document.querySelectorAll("[data-i18n]").forEach(el=>english[el.dataset.i18n]=el.innerHTML);
 function setLang(lang){
