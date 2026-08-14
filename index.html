@@ -91,17 +91,42 @@
 </div></div>
 <footer><span>LIMINAL CONNECTIVE</span><span>Behind the Scenes.</span><span>HO CHI MINH CITY / VIETNAM / JAPAN</span><span><a href="https://www.instagram.com/jfirstsaigon/" target="_blank" rel="noopener" data-track="instagram_click">IG</a> / <a href="https://www.facebook.com/jfirstsaigon" target="_blank" rel="noopener" data-track="facebook_click">FB</a> / <a href="https://direct.salondenet.jp/XWcj2QTPq8YwXeoL8" target="_blank" rel="noopener" data-track="booking_click">BOOK</a></span></footer></section>
 </main><script src="script.js"></script>
+
+
+
 <script>
-document.addEventListener('click', function (event) {
-  const link = event.target.closest('[data-track]');
-  if (!link || typeof gtag !== 'function') return;
-  gtag('event', link.dataset.track, {
-    link_url: link.href,
-    link_text: (link.innerText || link.textContent || '').trim(),
-    page_location: window.location.href,
-    language_selected: document.documentElement.lang || 'en'
-  });
-});
+(function () {
+  function detectEvent(link) {
+    var explicit = link.getAttribute('data-track');
+    if (explicit) return explicit;
+
+    var href = (link.getAttribute('href') || '').toLowerCase();
+    if (href.indexOf('direct.salondenet.jp') !== -1) return 'booking_click';
+    if (href.indexOf('instagram.com') !== -1) return 'instagram_click';
+    if (href.indexOf('facebook.com') !== -1 && href.indexOf('m.me') === -1) return 'facebook_click';
+    if (href.indexOf('m.me/') !== -1 || href.indexOf('messenger.com') !== -1) return 'messenger_click';
+    if (href.indexOf('zalo.me') !== -1) return 'zalo_click';
+    if (href.indexOf('tel:') === 0) return 'phone_click';
+    return null;
+  }
+
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('a');
+    if (!link) return;
+
+    var eventName = detectEvent(link);
+    if (!eventName || typeof window.gtag !== 'function') return;
+
+    window.gtag('event', eventName, {
+      link_url: link.href || '',
+      link_text: (link.innerText || link.textContent || '').trim(),
+      page_location: window.location.href,
+      page_title: document.title,
+      language_selected: document.documentElement.lang || 'en',
+      transport_type: 'beacon'
+    });
+  }, true);
+})();
 </script>
 
 </body></html>
