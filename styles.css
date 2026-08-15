@@ -14,3 +14,48 @@ footer a{color:inherit;text-decoration:none}
 
 /* v12 Founder */
 .founder-route{margin:1.25rem 0 2rem;letter-spacing:.08em;line-height:1.7}.founder-route span{opacity:.55;font-size:.8em}.founder-story{margin-top:2rem;max-width:42rem}.founder-story p{margin:0 0 1.4rem}.founder-story strong{display:block;margin-top:2.5rem;font-weight:400;line-height:1.5}
+/* Mobile hero layout fix */
+@media (max-width: 800px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  .hero {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+  }
+
+  .identity {
+    left: 18px;
+    right: 18px;
+    top: 28%;
+    max-width: calc(100vw - 36px);
+  }
+
+  .identity h1 {
+    font-size: 10.5vw;
+    line-height: 1.02;
+  }
+
+  .art {
+    right: -2%;
+    top: 23%;
+    width: 55%;
+    height: 58%;
+    overflow: hidden;
+  }
+
+  .word {
+    right: -10%;
+    font-size: 18vw;
+    line-height: .64;
+  }
+
+  .g {
+    left: 18%;
+  }
+}
